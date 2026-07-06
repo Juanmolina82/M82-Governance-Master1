@@ -1,10 +1,10 @@
 {
     "meta": {
         "firma_institucional": "Molina Holdings LLC / M82 Macro Strategy",
-        "version_nucleo": "5.0-BashCore",
-        "repositorio_upstream": "https://github.com/Juanmolina82/m82-macro-intelligence",
-        "ultima_actualizacion": "2026-07-06T16:50:00",
-        "status": "OPERATIVO_MAREA_PRINCIPAL"
+        "version_nucleo": "6.0-GovernanceCore",
+        "repositorio_upstream": "https://github.com/Juanmolina82/M82-Governance-Master1",
+        "ultima_actualizacion": "2026-07-06T18:00:00",
+        "status": "OPERATIVO_GOVERNANCE_MASTER"
     },
     "modulos": {
         "01_Dow_Soportes_Rupturas": {
@@ -30,28 +30,6 @@
                 "target_proyeccion": "Altura de la base aplicada desde el punto de quiebre"
             }
         },
-        "03_Osciladores_Medias_Volumen": {
-            "conceptos_clave": [
-                "Medias móviles estructurales (SMA/EMA) actuando como soporte dinámico de marea",
-                "Índice de Fuerza Relativa (RSI) y Oscilador Estocástico (Divergencias regulares y ocultas)",
-                "MACD (Análisis de histograma, cruces de líneas y momentum de la acción del precio)"
-            ],
-            "parametros_gestion_riesgo": {
-                "regla_operativa": "Prohibido abrir largos en sobrecompra extrema si el volumen decrece",
-                "sincronizacion_temporal": "Análisis obligatorio en W1/D1 para sesgo estructural"
-            }
-        },
-        "04_Elliott_Waves_Fibonacci": {
-            "conceptos_clave": [
-                "Estructura Impulsiva de Mercado basada en el modelo fractal de 5 ondas consecutivas",
-                "Fase Correctiva Estructural bajo la secuencia A-B-C (Zigzag, Flats y Triángulos)",
-                "Proporciones y Coeficientes Matemáticos de Fibonacci aplicados a la acción del precio"
-            ],
-            "parametros_gestion_riesgo": {
-                "reglas_elliott": "La Onda 3 nunca es la más corta; la Onda 4 nunca invade el territorio de la Onda 1",
-                "zonas_reversion": "Buscar confluencias exclusivamente en niveles de 38.2% y 61.8%"
-            }
-        },
         "05_Arbitraje_US_Iran_Pakistan": {
             "conceptos_clave": [
                 "Negociaciones geoestratégicas en Pakistán (Estatus de potencia nuclear y liberación de fondos)",
@@ -63,104 +41,16 @@
                 "gestion_riesgo_fondo": "Monitorear el tráfico de buques en el Estrecho de Ormuz"
             }
         },
-        "06_Arbitraje_Logistico_Caribe_Cuba": {
-            "conceptos_clave": [
-                "Retórica estratégica basada en la proximidad geográfica crítica ('Hopscotch')",
-                "Modelos de diferenciación de valoración de activos: Venezuela (Commodity) vs. Cuba (Real Estate)",
-                "Precedente operativo de remoción institucional y reordenamiento de fronteras"
-            ],
-            "parametros_gestion_riesgo": {
-                "indicador_clave": "Monitorear posicionamiento de activos de defensa en el Comando Sur de EE. UU.",
-                "regla_m82": "La cercanía geográfica reduce el tiempo de confirmación de una ruptura"
-            }
-        },
-        "07_Rotacion_Logistica_KKR_Maersk": {
-            "conceptos_clave": [
-                "Operación corporativa: Venta estratégica de Ocean Yield por KKR a A.P. Moller Holding (Maersk)",
-                "Estrategia de salida institucional: Liquidación de hardware de transporte pesado en techos de ciclo",
-                "Estrategia de acumulación: Maersk absorbe flotas comerciales para consolidar el control de la oferta"
-            ],
-            "parametros_gestion_riesgo": {
-                "indicador_logistico": "Monitorear el Índice Baltic Dry y las tarifas de fletes spot",
-                "regla_gestion": "Rotar carteras únicamente hacia operadores integrados verticalmente"
-            }
-        },
-        "08_Jerarquia_Tendencias_Dow_Fractal": {
-            "conceptos_clave": [
-                "Tendencia Principal o Marea: Dirección macro-institucional dictada por flujos soberanos",
-                "Tendencia Secundaria u Olas: Consolidaciones distributivas y correcciones de mediano plazo",
-                "Tendencia Menor o Rizo: Fluctuaciones diarias, volatilidad intradía y ruido de la prensa"
-            ],
-            "parametros_gestion_riesgo": {
-                "regla_de_oro": "Nunca operar en contra de la Tendencia Principal basándose en un Rizo",
-                "aplicacion_m82": "Filtrar los cables de prensa comerciales para operar en sincronía estatal"
-            }
-        },
-        "09_Distribucion_Insiders_Lobbying_PLTR": {
-            "conceptos_clave": [
-                "Cabildeo institucional enfocado en captura de presupuestos de agencias federales",
-                "Fase de Distribución activa en mercado abierto: Liquidación agresiva de acciones por insiders",
-                "Métrica de Trading del Congreso: Flujo neto vendedor acumulado en el sector tecnológico"
-            ],
-            "parametros_gestion_riesgo": {
-                "alerta_cuantitativa": "Divergencia bajista entre la narrativa pública y la salida de capital",
-                "filtro_de_riesgo": "Evitar compras en zonas de euforia retail si la distribución supera los $500M"
-            }
-        },
-        "10_Arbitraje_Regulatorio_CRMD_Pasteur": {
-            "conceptos_clave": [
-                "Cabildeo enfocado en la Ley PASTEUR de 2026 (Modelo soberano de suscripción con ingresos fijos)",
-                "Protección y defensa de reembolsos de Medicare para salud renal (Defencath)",
-                "Rotación de Carteras en el libro de órdenes: Salida masiva de Marshall Wace absorbida por UBS"
-            ],
-            "parametros_gestion_riesgo": {
-                "disparador_fundamental": "La aprobación de la Ley PASTEUR actúa como un Breakaway Gap",
-                "gestion_riesgo": "Mantener posiciones limitadas debido al riesgo de plazos legislativos"
-            }
-        },
-        "11_Sovereign_Pivot_LUMN_Infrastructure": {
-            "conceptos_clave": [
-                "Contratos de Conectividad Privada (PCF) por $13B con Microsoft, AWS y Anthropic para IA",
-                "Reducción de deuda estructural respaldada por la desinversión masiva de fibra residencial",
-                "Señal de acumulación de manos fuertes: Compra masiva en mercado abierto por la CEO ($500K)"
-            ],
-            "parametros_gestion_riesgo": {
-                "precio_objetivo_consenso": "Rango de valoración institucional de $7.00 a $10.00 para 2026",
-                "filtro_de_ruptura": "Confirmar cierres semanales sobre la zona de resistencia de $8.50"
-            }
-        },
-        "12_Doctrina_Marco_Rubio_250_Aniversario": {
-            "conceptos_clave": [
-                "Manifiesto del Secretario de Estado Marco Rubio redefiniendo la frontera histórica como tecnológica",
-                "Marco ideológico y estratégico: Reafirmación del legado anglosajón, soberanía del silicio",
-                "Modernización y control estatal: Digitalización total de trámites e inclusión de big data"
-            ],
-            "parametros_gestion_riesgo": {
-                "sesgo_macro_m82": "Confirmación de la Tendencia Primaria alcista para el gasto de defensa de EE. UU.",
-                "gestion_de_capital": "Sobreponderar activos e infraestructura dura estadounidense"
-            }
-        },
         "13_Takeover_Infraestructura_Maiquetia": {
             "conceptos_clave": [
                 "Intervención de un escuadrón militar estadounidense en la torre de control de Maiquetía (CCS)",
                 "Control absoluto y gestión del tráfico aéreo, neutralizando las restricciones locales",
-                "Punto de inflexión fáctico: Pérdida del control de nodos de transporte por el operador local"
+                "Punto de inflexión fáctico: Pérdida del control de nodos de transporte por parte del operador local"
             ],
             "parametros_gestion_riesgo": {
                 "alerta_de_volatilidad": "Ruptura estructural de alta intensidad. Activar monitoreo estricto",
                 "impacto_en_activos": "Los contratos de deuda soberana entran en fase de revalorización",
                 "regla_m82": "Quien ejerce el control físico de la torre de control dicta las reglas"
-            }
-        },
-        "14_Friccion_Rutas_MCM_Takeover": {
-            "conceptos_clave": [
-                "Fricción de rutas: Intento fallido por vía privada desde Virginia-Curazao obligado a retornar",
-                "Bloqueo comercial: Coerción regulatoria y amenazas de represalias a Copa Airlines",
-                "Transición analítica: Las aparentes indecisiones eran la fase de compresión previa al breakout"
-            ],
-            "parametros_gestion_riesgo": {
-                "lectura_de_ordenes": "Los bloqueos comerciales actuaron como la última resistencia del canal",
-                "regla_m82_logistica": "Cuando las vías civiles se saturan, el capital soberano despliega hardware militar"
             }
         },
         "15_Alineacion_Doctrinal_MCM_Trump": {
@@ -182,7 +72,7 @@
             ],
             "parametros_gestion_riesgo": {
                 "alerta_de_flujos": "El eje Trump-Putin busca cortocircuitar los contratos de la UE",
-                "regla_m82_macro": "El Smart Money descuenta liquidación del conflicto en Ucrania en la segunda mitad de 2026"
+                "regla_m82_macro": "El Smart Money descuenta liquidación del conflicto en Ucrania para la segunda mitad de 2026"
             }
         }
     }
