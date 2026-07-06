@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "firma_institucional": "Molina Holdings LLC / M82 Macro Strategy",
+        "version_nucleo": "4.5-BashEngine",
+        "repositorio_upstream": "https://github.com/Juanmolina82/m82-macro-intelligence",
+        "ultima_actualizacion": "2026-07-04T12:00:00",
+        "status": "OPERATIVO_MAREA_PRINCIPAL"
+    },
+    "modulos": {
+        "01_Dow_Soportes_Rupturas": {
+            "conceptos_clave": [
+                "Fases estructurales del mercado (Acumulación, Participación, Distribución)",
+                "Principio de cambio de rol institucional (Soporte roto se valida como resistencia dinámica)",
+                "Filtros de ruptura basados en cierres de vela y marcos de tiempo mayores"
+            ],
+            "parametros_gestion_riesgo": {
+                "stop_loss": "Más allá del último soporte estructural",
+                "filtro_tiempo": "Regla institucional de los dos días"
+            }
+        },
+        "02_Geometria_Triangulos_Figuras": {
+            "conceptos_clave": [
+                "Patrones de compresión geométrica (Triángulos simétricos, ascendentes/descendentes)",
+                "Formaciones de ensanchamiento macro (Patrones de megáfono o volatilidad expansiva)",
+                "Estructuras de reversión mayor (Patrón Diamante, Hombro-Cabeza-Hombro)",
+                "Patrones de continuación de tendencia en el asfalto (Banderas y Banderines)"
+            ],
+            "parametros_gestion_riesgo": {
+                "confirmacion_volumen": "Expansión drástica al quebrar el límite geométrico",
+                "target_proyeccion": "Altura de la base aplicada desde el punto de quiebre"
+            }
+        },
+        "05_Arbitraje_US_Iran_Pakistan": {
+            "conceptos_clave": [
+                "Negociaciones geoestratégicas en Pakistán (Estatus de potencia nuclear y liberación de fondos)",
+                "Fricción estructural por sucesión y amenazas latentes de renuncia en el bloque gubernamental iraní",
+                "Vértice de volatilidad internacional y fijación de primas de riesgo en el mercado de crudo"
+            ],
+            "parametros_gestion_riesgo": {
+                "trigger_mercado": "La firma de un MoU genera colapso inmediato de volatilidad",
+                "gestion_riesgo_fondo": "Monitorear tráfico de buques en el Estrecho de Ormuz"
+            }
+        },
+        "13_Takeover_Infraestructura_Maiquetia": {
+            "conceptos_clave": [
+                "Intervención de un escuadrón militar estadounidense en la torre de control de Maiquetía (CCS)",
+                "Control absoluto y gestión del tráfico aéreo, neutralizando restricciones del operador local",
+                "Punto de inflexión fáctico: Pérdida del control de nodos de transporte por el operador local"
+            ],
+            "parametros_gestion_riesgo": {
+                "alerta_de_volatilidad": "Ruptura estructural de alta intensidad. Monitoreo estricto",
+                "impacto_en_activos": "Contratos de deuda soberana entran en fase de revalorización",
+                "regla_m82": "Quien ejerce el control físico de la torre dicta las reglas del asfalto"
+            }
+        },
+        "15_Alineacion_Doctrinal_MCM_Trump": {
+            "conceptos_clave": [
+                "Manifiesto oficial de MCM del 4 de julio enlazando el ADN republicano y Filadelfia",
+                "Sincronización cronológica: Eje conmemorativo de 250 años de EE. UU. y 215 años de Venezuela",
+                "Agradecimiento y validación de la conducción civil al Presidente Trump y sus militares"
+            ],
+            "parametros_gestion_riesgo": {
+                "status_operativo": "El takeover material de Maiquetía queda respaldado por Washington",
+                "regla_m82_capital": "Alianzas basadas en infraestructura dura y control de nodos son de largo plazo"
+            }
+        },
+        "16_Arbitraje_Soberano_Moscou_Trump": {
+            "conceptos_clave": [
+                "Llamada telefónica de alta jerarquía el 4 de julio ejecutada a iniciativa de Washington",
+                "Fijación de precios globales: Putin felicita a Trump y expone la realidad material en el frente",
+                "Disposición diplomática del Kremlin bajo la premisa de reconocer sus intereses territoriales"
+            ],
+            "parametros_gestion_riesgo": {
+                "alerta_de_flujos": "Eje Trump-Putin busca cortocircuitar contratos de la UE",
+                "regla_m82_macro": "Smart Money descuenta liquidación del conflicto en Ucrania para la segunda mitad de 2026"
+            }
+        }
+    }
+}
